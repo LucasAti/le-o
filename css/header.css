@@ -1,0 +1,31 @@
+.header {
+    min-height: 10vh;
+    width: 100vw;
+    background-color: lightslategray;
+    color: lightseagreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+}
+.lista-menu { /*ul*/
+    display: flex;
+    list-style-type: none;
+    font-size: 1.3rem;
+}
+
+.item-menu {/*li*/
+    padding: 10px 15px;
+}
+
+.link-menu {/*a*/
+    text-decoration: none;
+    color: rgb(15, 15, 160);
+    font-size: 1.6rem;
+}
+.link-menu:hover,.link-carrossel:hover {color:rgb(247, 216, 40);}
+#icone-menu{
+    font-size: 2rem;
+    display: none;
+}
+   
